@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SOLID
 {
-    public class Costs
+    public static class Costs
     {
-        public double TotalArea(HouseParts[] parts)
+        public static double TotalArea(HouseParts[] parts)
         {
             double answer = 0;
             foreach (var part in parts)
