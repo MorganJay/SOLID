@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SOLID
 {
@@ -10,6 +6,8 @@ namespace SOLID
     {
         private static void Main()
         {
+            var wall = new Wall { Breadth = 5, Length = 67 };
+            Console.WriteLine(wall.Area());
             Console.ReadLine();
         }
     }
